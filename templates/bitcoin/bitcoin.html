@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %} Bitcoin{% endblock %}
+
+{% block body %}
+    {% if data %}
+    <div>
+        {{ data|safe }}
+    </div>
+    {% endif %}
+{% endblock %}
